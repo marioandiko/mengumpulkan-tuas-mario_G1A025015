@@ -1,0 +1,14 @@
+public class Main {
+public static void main(String[] args) {
+String angin= ""; //angin dari Utara dan Barat
+if (angin.equals("Utara")) {
+System.out.println("drone terbang ke
+else if (angin.equals("Barat")) {
+System.out.printlin("drone terbang ke timur.");
+selatan.");
+}
+} else {
+System.out.println("drone hover atau diam di
+tempat).");
+}
+}
