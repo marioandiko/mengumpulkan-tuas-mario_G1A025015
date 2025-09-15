@@ -1,0 +1,16 @@
+public class Main {
+  public static void main(String[] args) {
+    int Tarif_parkir = 1; //keterangan jam = pagi, siang, malam
+
+    if (Tarif_parkir < 12) {
+      System.out.println("siang");
+      System.out.println("Rp.5000");
+    } else if (Tarif_parkir > 12 && Tarif_parkir < 18) {
+      System.out.println("sore");
+      System.out.println("Rp.7.000");
+   } else if (Tarif_parkir > 18) {
+      System.out.println("malam");
+      System.out.println("Rp.10.000.");
+    }
+  }
+}
