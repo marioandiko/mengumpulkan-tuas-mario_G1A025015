@@ -1,0 +1,11 @@
+public class Main {
+  public static void main(String[] args) {
+  int saldo = 1500; // saldo e-Toll
+
+  if (saldo >= 20000) {
+     System.out.println("Boleh masuk tol");
+  } else {
+     System.out.println("Saldo tidak cukup");
+    }
+  }
+}
