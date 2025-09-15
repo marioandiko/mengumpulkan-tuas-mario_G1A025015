@@ -1,0 +1,8 @@
+public class Main {
+  public static void main(String[] args) {   
+    int kapasitas = 10;//bayangkan kondisi lift siang hari saat penuh sesak
+    String result;
+    result = (kapasitas <= 8) ? "lift bisa jalan." : "Terlalu penuh,tunggu lift selanjutnya.";
+    System.out.println(result);
+  }
+}
